@@ -1,4 +1,4 @@
-zanwenhuahao.github.io
-======================
+website
+=======
 
-Website for the Curious Monkey
+Website template for WiCS' "Make Your Own Website on Github" Day
