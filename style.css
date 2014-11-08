@@ -24,3 +24,12 @@ main {
 main p{
 	font-size: 2em;
 }
+#page_wrap {
+	width: 75%;
+	margin:0px auto;
+	text-align:left;
+	padding:15px;
+	border:1px dashed #333;
+	background: rgba(255, 255, 255, 0.6);
+
+}
