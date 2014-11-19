@@ -6,15 +6,6 @@
     Tappy's WiCS Website Trial
   </title>
  <link type ="text/css" rel = "stylesheet" href = "style.css" />
- <script type="text/javascript" src="http://code.jquery.com/jquery.js"></script><script type="text/javascript">
-  $(document).ready(function() {
-  var bodyHeight = $("body").height();
-  var vwptHeight = $(window).height();
-  if (vwptHeight > bodyHeight) {
-    $("footer").css("position","absolute").css("bottom",0);
-  }
-});
-</script>
 </head>
 <body>
 <div id="page_wrap">
@@ -47,5 +38,14 @@ I don't own this picture below, some amazingly creative artist on Deviant Art ma
   By Tappy He 2014
 </footer>
 </div>
+ <script type="text/javascript" src="http://code.jquery.com/jquery.js"></script><script type="text/javascript">
+  $(document).ready(function() {
+  var bodyHeight = $("body").height();
+  var vwptHeight = $(window).height();
+  if (vwptHeight > bodyHeight) {
+    $("footer").css("position","absolute").css("bottom",0);
+  }
+});
+</script>
 </body>
 </html>
