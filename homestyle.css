@@ -3,6 +3,7 @@
 	width: 75%;
 	margin:10% auto;
 	text-align:left;
+  position: relative;
 	padding:15px;
 	border:1px #333;
 	background: rgba(200, 200, 200, 0.6);
@@ -34,8 +35,9 @@ main
 }
 .buttonWrapper
 {
-    width: 50%;
-    margin: 0 auto;
+  margin: auto;
+  position: absolute;
+  left: 0; right: 0;
 }
 .devButton {
    background-color: rgba(156,156,156,1);
