@@ -32,10 +32,12 @@ main
 {
 	margin: 30px auto;
 }
-
+.buttonWrapper
+{
+    width: 50%;
+    margin: 0 auto;
+}
 .devButton {
-    margin-left: auto;
-    margin-right: auto;
    background-color: rgba(156,156,156,1);
    -webkit-box-shadow: 0px 0px 2px 0px rgba(158,158,158,1);
       -moz-box-shadow: 0px 0px 2px 0px rgba(158,158,158,1);
@@ -71,8 +73,6 @@ main
 }
 
 .button {
-    margin-left: auto;
-    margin-right: auto;
    background-color: rgba(240,96,53,1);
    -webkit-box-shadow: 0px 0px 2px 0px rgba(158,158,158,1);
       -moz-box-shadow: 0px 0px 2px 0px rgba(158,158,158,1);
