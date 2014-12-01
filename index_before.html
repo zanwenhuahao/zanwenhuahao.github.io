@@ -1,0 +1,88 @@
+<!doctype html>
+<!-- comments look like this -->
+<html>
+<head>
+  <title>
+    Tappy's WiCS Website Trial
+  </title>
+ <link type ="text/css" rel = "stylesheet" href = "style.css" />
+</head>
+<body>
+<div id="page_wrap">
+<header> <!-- stuff that never changes (site name, navigation) -->
+  <h1>Xuan (Tappy) He</h1>
+  <div id="blurb">
+  Trying hard to express my creativity online<br> Habitually rants about teaching sometimes<br>
+    <br>
+    <!-- Hoping to make high school CS classes relevant</p> -->
+  </div>
+  <div id="navbar"> <!-- navigation section -->
+    <span><a href="#">About</a></span>
+    <span><a href="#">Resume</a></span>
+    <span><a href="#">GitHub</a></span>
+    <span><a href="#">Blog(External)</a></span>
+    <span><a href="#">Contact</a></span>
+    <span><a href="#">More Tabs to Come...</a></span>
+    <!-- <p> This shit</p>  # Testing out the paragraph p outside of main p -->
+  </div>
+</header>
+
+<main> <!-- stuff that changes on every page -->
+<div id="description">
+<!--Hi everyone, welcome to my website. She's static and evolving as I learn more web stuff, stay tuned. 
+<br>
+I don't own this picture below, some amazingly creative artist on Deviant Art made it, credit goes to her/him.
+<br>
+<br>
+-->
+Hi everyone, welcome to my website. This website is made as an attempt for me to learn the super power of web development, mostly to make myself happy by being able to showcase myself on the internet. It took me a really long time to realize that the desire to "perform" and "showcase", through various artistic mediums, myself to the world is the one thing that makes me truly happy. I am hoping that this motivation lives on for both myself and other like-minded creative people.
+<br>
+<h2> Story so far ... </h2>
+I was born in a relatively populous city called <span class="paraTags">Anshan, LiaoNing Province, PRC</span>. Our city was known for it's production of <span class="paraTags">Iron and Steel</span> established during the 1950s' "Great Leap Forward" and 1960s' "Cultural Revolution", and a <span class="paraTags">Jade Buddha</span>.
+<br>
+On Christmas Day 2001, I arrived in Mississauga, ON, CA with my parents who were skilled-worker immigrants.
+<br>
+I currently attend the <span class="paraTags">University of Waterloo</span>, in the co-op <span class="paraTags">Mathematics/Teaching</span> program. In addition to my collection of courses in pure and discrete mathematics, I'm also attempting a major in <span class="paraTags">Computer Science</span>. 
+<br>
+I attended Queen's University for Teacher's College from 2012-2013, during which I had some meaningful practicum experiences, as well as took a course in <span class="paraTags"> Aboriginal Education</span> that changed the scope of my world forever.
+<br>
+I will graduate with a Bachelors of Mathematics and Bachelors of Education in 2015.
+<br>
+In the past, I have worked as a student teacher at public schools and private schools, locally and abroad:
+<ul>
+  <li> Kitchener Collegiate Institute </li>
+  <li> Trinity College School </li>
+  <li> Atlanta International School </li>
+</ul>
+I also had a stint teaching <span class="paraTags"> Math Cirlces </span> for the <span class="paraTags"> Center for Education in Mathematics and Computing</span>, the organization that I admired very much from various <span class="paraTags">Math Contests</span> back in high school.
+
+<br>
+<!-- Omit below paragraph for "professionalism"-->
+<!--Often times, my days are reversed, hobbies taking up majority and school work taking up the "spare-time". I've stopped getting angry at myself for doing this (resulting in further anxiety and unproductivity), and learnt to embrace who I am, attributing my eccentric personality, wandering mind, and rule-hating daydreaming as signs of a creative brain, all the while battling this <span class="paraTags">on-going health problem</span>. -->
+<br>
+Nearly all my hobbies involve expressing art in some form. I used to draw manga-styled art, traditional art, play cello and violin, sing Chinese folk songs, practice performance Kung-Fu, and recently I've started down the path of creative writing. 
+<br>
+Even more recently, I've started to take a liking to writing code and make computers do magical things for expression, thus leading to the birth of this website.
+<br>
+There will be more projects of mine to come, and this website will grow with me. Thanks for watching over me, and stay tuned!
+<br>
+<br>
+  <img id="all_images" src="images/Mcdonalds_Spirited_Away_O_O_by_NinjaAliceXD.jpg"></img>
+</div>
+</main>
+
+<footer>
+  By Tappy He 2014
+</footer>
+</div>
+ <script type="text/javascript" src="http://code.jquery.com/jquery.js"></script><script type="text/javascript">
+  $(document).ready(function() {
+  var bodyHeight = $("body").height();
+  var vwptHeight = $(window).height();
+  if (vwptHeight > bodyHeight) {
+    $("footer").css("position","absolute").css("bottom",0);
+  }
+});
+</script>
+</body>
+</html>

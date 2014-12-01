@@ -19,6 +19,7 @@
 header #blurb {
 	width: 50%;
 	text-align:left;
+	color: #363636;
 }
 
 body {
@@ -29,7 +30,18 @@ body {
 	background-color: #79A84C;
 	/*background-color: #aaa;*/
 }
+body #description {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #363636;
+}
 
+body .paraTags {
+	color: #666666;
+    -moz-text-decoration-line: underline;
+    -moz-text-decoration-style: dashed;
+}
+body 
 main {
   padding: 0.5em;
 }
