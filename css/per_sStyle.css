@@ -43,12 +43,19 @@ hr.top-hr:after {
 .content-wrap
 {
 	width:60%;
-	height:700px;
 	margin:auto;
 }
 .content-wrap h1
 {
 	color:#666;
+}
+.content-wrap h2
+{
+	color:#777;
+	-moz-text-decoration-line: underline;
+    -moz-text-decoration-style: dashed;
+    -webkit-text-decoration-line: underline;
+    -webkit-text-decoration-style: dashed;
 }
 .content-wrap p
 {
@@ -62,6 +69,12 @@ hr.top-hr:after {
     -webkit-text-decoration-line: underline;
     -webkit-text-decoration-style: dashed;
     
+}
+.intext-quotes
+{
+	color: #777;
+	font-style: italic;
+	font-weight: bold;
 }
 .intext-emphasis
 {
