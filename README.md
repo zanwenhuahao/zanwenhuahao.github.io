@@ -1,4 +1,3 @@
 website
 =======
-
-Website template for WiCS' "Make Your Own Website on Github" Day
+My personal website, made when I was an naive computer science undergrad, made again when I became a naive international teacher.
